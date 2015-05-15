@@ -30,7 +30,7 @@ php artisan migrate
 #### Setup your models
 
     class Article extends \Illuminate\Database\Eloquent\Model {
-		use Conner\Likeable\LikeableTrait;
+		use \Conner\Likeable\LikeableTrait;
 	}
 
 #### Sample Usage
